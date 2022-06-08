@@ -47,6 +47,5 @@ def find_anagram(word, anagram):
 word = input("Enter first word: ")
 anagram = input("Enter second word: ")
 
-find_anagram(word, anagram)
+print(find_anagram(word, anagram))
 
-print("The answer has been returned by the function. I would have printed this but we were only asked to return it")
