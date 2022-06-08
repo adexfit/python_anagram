@@ -4,6 +4,9 @@
 # find_anagrams("below", "elbow") --> True
 
 
+from xmlrpc.client import boolean
+
+
 def find_anagram(word, anagram):
     # [assignment] Add your code here
     mybool_list1 = []
@@ -41,4 +44,9 @@ def find_anagram(word, anagram):
     return answer
 
 
-#done
+word = input("Enter first word: ")
+anagram = input("Enter second word: ")
+
+find_anagram(word, anagram)
+
+print("The answer has been returned by the function. I would have printed this but we were only asked to return it")
